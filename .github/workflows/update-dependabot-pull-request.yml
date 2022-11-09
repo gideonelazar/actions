@@ -3,10 +3,10 @@ name: Update Dependabot Pull Request Name
 
 on: 
   pull_request:
-    branches:    
-      - 'dependabot-npm/**'
-  # label:
-  #  types: [dependencies, dependabot]
+    # branches:    
+    #   - 'dependabot-npm/**'
+  label:
+   types: [dependencies]
 
 jobs:
   update_pr:
