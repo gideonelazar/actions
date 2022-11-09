@@ -19,7 +19,8 @@
     "@emotion/styled": "^11.0.0",
     "@mui/material": "^5.0.1",
     "@mui/system": "^5.0.1",
-    "@babel/core": "^7.15.0"
+    "@babel/core": "~7.15.0",
+    "rxjs": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
