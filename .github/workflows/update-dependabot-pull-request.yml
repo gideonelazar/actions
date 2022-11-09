@@ -1,0 +1,19 @@
+
+name: Update Dependabot Pull Request Name
+
+on: 
+  pull_request:
+    branches:    
+      - 'build(deps)/**'
+  label:
+   types: [dependencies, dependabot]
+
+jobs:
+  update_pr:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: tzkhan/pr-update-action@v2
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        title-template: '[%headbranch%]'
+
