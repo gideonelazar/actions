@@ -5,8 +5,8 @@ on:
   pull_request:
     branches:    
       - 'build(deps)/**'
-  label:
-   types: [dependencies, dependabot]
+  # label:
+  #  types: [dependencies, dependabot]
 
 jobs:
   update_pr:
