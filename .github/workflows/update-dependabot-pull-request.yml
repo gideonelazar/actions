@@ -4,7 +4,7 @@ name: Update Dependabot Pull Request Name
 on: 
   pull_request:
     branches:    
-      - 'build(deps)/**'
+      - 'dependabot-npm/**'
   # label:
   #  types: [dependencies, dependabot]
 
