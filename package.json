@@ -18,7 +18,8 @@
     "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.0.0",
     "@mui/material": "^5.0.1",
-    "@mui/system": "^5.0.1"
+    "@mui/system": "^5.0.1",
+    "@babel/core": "^7.15.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
