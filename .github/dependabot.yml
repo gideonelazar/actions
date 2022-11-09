@@ -8,7 +8,7 @@ updates:
       - "dependabot"
       - "dependencies"  
     allow:
-      - dependency-type: 'all'
+      - dependency-type: 'production'
     ignore:
       - dependency-name: '*'
         update-types:
