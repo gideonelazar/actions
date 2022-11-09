@@ -1,8 +1,5 @@
 version: 2
-registries:
-  artifactory:
-    type: npm-registry
-  
+ 
 updates:
   - package-ecosystem: 'npm'
     registries:
