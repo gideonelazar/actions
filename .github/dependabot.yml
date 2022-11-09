@@ -1,5 +1,5 @@
 version: 2
- 
+
 updates:
   - package-ecosystem: 'npm'
     registries:
@@ -7,15 +7,18 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
-    open-pull-requests-limit: 1
+    labels:
+      - "dependabot"
+      - "dependencies"  
     allow:
       - dependency-type: 'all'
     ignore:
       - dependency-name: '*'
         update-types:
           ['version-update:semver-major', 'version-update:semver-minor']
+    open-pull-requests-limit: 1
     pull-request-branch-name:
-      separator: '-'
+      separator: "-"
     commit-message:
-      prefix: 'build'
-      include: 'scope'
+      prefix: "build"
+      include: "scope"
