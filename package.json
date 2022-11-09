@@ -23,7 +23,7 @@
     "rxjs": "^5.2.0",
     "angular": "^1.8.0",
     "@babel/preset-env": "^7.16.4",
-    "@commitlint/cli": "^13.1.0",
+    "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^13.1.0",
     "jest": "^27.5.1",
     "jest-image-snapshot": "^4.5.1",
@@ -36,7 +36,7 @@
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.16.4",
-    "@commitlint/cli": "^13.1.0",
+    "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^13.1.0",
     "jest": "^27.5.1",
     "jest-image-snapshot": "^4.5.1",
