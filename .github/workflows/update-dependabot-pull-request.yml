@@ -2,7 +2,7 @@
 name: Update Dependabot Pull Request Name
 
 on: 
-  pull_request:
+  push:
     # branches:    
     #   - 'dependabot-npm/**'
   label:
