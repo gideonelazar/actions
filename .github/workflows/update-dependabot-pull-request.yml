@@ -15,10 +15,10 @@ jobs:
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           base-branch-regex: '[A-Za-z\d-_.\\/]+'
-          head-branch-regex: '[A-Za-z\d-_.\\/]+'
-          title-template: '[%headbranch%] '
+          # head-branch-regex: '[A-Za-z\d-_.\\/]+'
+          title-template: '[111] '
           body-template: |
-            Jira issue: %headbranch%
+            Jira issue: 222222
             ---
           body-update-action: 'prefix'
           body-uppercase-base-match: false
