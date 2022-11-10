@@ -13,5 +13,6 @@ jobs:
     - uses: tzkhan/pr-update-action@v2
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        title-template: 'gideon'
-
+        base-branch-regex: '[a-z\d-_.\\/]+'
+        title-template: 'jira-id '
+        
