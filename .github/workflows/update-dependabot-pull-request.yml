@@ -11,6 +11,6 @@ jobs:
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
         base-branch-regex: '[a-z\d-_.\\/]+'
-        head-branch-regex: '\d+'
+        # head-branch-regex: '\d+'
         title-template: 'dxxxxxx '
   
