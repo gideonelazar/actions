@@ -15,7 +15,7 @@ jobs:
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           base-branch-regex: '[A-Za-z\d-_.\\/]+'
-          head-branch-regex: '^([A-Za-z])+-\d+'
+          head-branch-regex: '[A-Za-z\d-_.\\/]+'
           title-template: '[%headbranch%] '
           body-template: |
             Jira issue: %headbranch%
